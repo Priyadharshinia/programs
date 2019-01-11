@@ -3,5 +3,7 @@ if(no>0):
     print("Positive")
 elif(no<0):
     print("Negative")
-else:
+elif(no==0):
     print("Zero")
+else:
+    print("Default")
