@@ -1,9 +1,20 @@
-a=int(input()) 
-b=int(input()) 
-c=int(input())
-if(a>b and a>c):
-    print (a)
- elif(b>a and b>c): 
-    print (b)
- else:
-    print (c)
+#include <stdio.h>
+int main() 
+{
+int a,b,c;
+scanf("%d%d%d",&a,&b,&c);
+if(a>b&&a>c)
+{ 
+printf ("%d",a);
+}
+else if(b>a&&b>c)
+{
+printf ("%d",b);
+}
+else
+{
+printf ("%d",c);
+}
+}
+
+
