@@ -14,7 +14,8 @@ printf ("%d",b);
 else
 {
 printf ("%d",c);
-}
+} 
+return 0;
 }
 
 
