@@ -5,11 +5,11 @@ char ch;
 scanf("%c",&ch);
 if((ch>='a'&&ch<='z')||(ch>='A'&&ch<='Z'))
 {
-printf ("Alphabet");
+printf("Alphabet");
 }
 else
 {
-printf ("No");
+printf("No");
 }
 return 0;
 }
