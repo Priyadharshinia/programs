@@ -16,11 +16,11 @@ for(i=0;a[i]!='\0';i++)
 } 
 if(count==l) 
 { 
-  printf("yes");
+  printf("Yes");
 } 
 else 
 {
-  printf("no");
+  printf("No");
 }
 	return 0;
 }
