@@ -2,9 +2,9 @@
 #include<ctype.h>
 int main(void) 
 {
-	char a[100];
+	char a[1000];
 	int i;
-	scanf("%s",a);
+	gets(a);
 	for(i=0;a[i]!='\0';i++)
 	{
 	 if(a[i]>='A'&&a[i]<='Z')
