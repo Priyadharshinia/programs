@@ -1,5 +1,8 @@
 n=int(input())
 num=[int(a) for a in input().split()]
 d=sorted(num)
-print(d)
+for i in range(n):
+	print(d[i],end=" ")
+	i=i+1
+	
 	
